@@ -7,7 +7,7 @@ const TimelineLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
         sectionRefs.current[content.id] = el;
       }
     }}
-    className="mb-20 min-h-screen"
+    className="mb-20 "
   >
     <div className="max-w-4xl">
       <div className="mb-8">

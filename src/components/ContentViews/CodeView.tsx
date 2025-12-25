@@ -8,7 +8,7 @@ const CodeLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
         sectionRefs.current[content.id] = el;
       }
     }}
-    className="mb-20 min-h-screen"
+    className="mb-20"
   >
     <div className="max-w-4xl">
       <div className="bg-gray-900 text-green-400 p-8 rounded-xl font-mono shadow-2xl">
@@ -29,7 +29,7 @@ const CodeLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
           {content.description}
         </p>
         <div className="bg-black bg-opacity-50 p-4 rounded">
-          <pre className="text-sm text-green-300">{content.content}</pre>
+          <span className="text-sm h-8 text-green-300">{content.content}</span>
         </div>
       </div>
     </div>

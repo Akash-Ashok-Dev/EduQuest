@@ -7,7 +7,7 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
         sectionRefs.current[content.id] = el;
       }
     }}
-    className="mb-20 min-h-screen"
+    className="mb-20"
   >
     <div className="max-w-5xl">
       <div className="bg-linear-to-r from-purple-600 to-pink-600 text-white p-12 rounded-2xl shadow-2xl mb-8">

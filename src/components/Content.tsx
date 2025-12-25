@@ -77,16 +77,6 @@ const Content: React.FC<ContentProps> = ({ items, sectionRefs, onScroll }) => {
                       <div className="prose text-gray-700 leading-relaxed">
                         {subItem.content}
                       </div>
-
-                      <div className="mt-8 p-6 bg-purple-50 border-l-4 border-purple-500 rounded">
-                        <h4 className="font-semibold text-purple-900 mb-2">
-                          Subsection Tip
-                        </h4>
-                        <p className="text-purple-800">
-                          This subsection provides detailed information about{" "}
-                          {subItem.title.toLowerCase()}.
-                        </p>
-                      </div>
                     </div>
                   </div>
                 ))}
