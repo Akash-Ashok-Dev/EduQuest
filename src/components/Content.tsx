@@ -58,6 +58,9 @@ const Content: React.FC<ContentProps> = ({ items, sectionRefs, onScroll }) => {
               {/* Sub Sections (same for all layouts) */}
               {content.subItems &&
                 content.subItems.map((subItem) => {
+                  const hasCards =
+                    subItem.cardData && subItem.cardData.cards.length > 0;
+
                   // Parse content to separate paragraphs and bullet points
                   const contentLines = subItem.content.split("\n");
                   const parsedContent: Array<{
@@ -112,6 +115,42 @@ const Content: React.FC<ContentProps> = ({ items, sectionRefs, onScroll }) => {
                       });
                     }
                   });
+
+                  const colorMap: Record<
+                    string,
+                    { bg: string; border: string; text: string }
+                  > = {
+                    blue: {
+                      bg: "bg-blue-50",
+                      border: "border-blue-300",
+                      text: "text-blue-700",
+                    },
+                    purple: {
+                      bg: "bg-purple-50",
+                      border: "border-purple-300",
+                      text: "text-purple-700",
+                    },
+                    green: {
+                      bg: "bg-green-50",
+                      border: "border-green-300",
+                      text: "text-green-700",
+                    },
+                    red: {
+                      bg: "bg-red-50",
+                      border: "border-red-300",
+                      text: "text-red-700",
+                    },
+                    yellow: {
+                      bg: "bg-yellow-50",
+                      border: "border-yellow-300",
+                      text: "text-yellow-700",
+                    },
+                    pink: {
+                      bg: "bg-pink-50",
+                      border: "border-pink-300",
+                      text: "text-pink-700",
+                    },
+                  };
 
                   return (
                     <div
@@ -175,6 +214,43 @@ const Content: React.FC<ContentProps> = ({ items, sectionRefs, onScroll }) => {
                             }
                           })}
                         </div>
+
+                        {/* Card Grid (if cardData exists) */}
+                        {hasCards && (
+                          <div
+                            className={`grid gap-6 mb-8 ${
+                              subItem.cardData!.cards.length === 2
+                                ? "grid-cols-1 md:grid-cols-2"
+                                : subItem.cardData!.cards.length === 3
+                                ? "grid-cols-1 md:grid-cols-3"
+                                : "grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+                            }`}
+                          >
+                            {subItem.cardData!.cards.map((card, cardIndex) => {
+                              const colors = colorMap[card.color || "blue"];
+                              return (
+                                <div
+                                  key={cardIndex}
+                                  className={`${colors.bg} border-2 ${colors.border} rounded-xl p-6 hover:shadow-lg transition-all duration-200 hover:scale-105`}
+                                >
+                                  {card.icon && (
+                                    <div className="text-4xl mb-4">
+                                      {card.icon}
+                                    </div>
+                                  )}
+                                  <h5
+                                    className={`text-lg font-bold ${colors.text} mb-2`}
+                                  >
+                                    {card.title}
+                                  </h5>
+                                  <p className="text-gray-600 text-sm leading-relaxed">
+                                    {card.description}
+                                  </p>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        )}
                       </div>
                     </div>
                   );

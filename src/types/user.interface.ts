@@ -12,9 +12,20 @@ interface SubItem{
   id:string;
   title: string;
   content:string;
+  cardData ?: CardData;
 }
 
 export interface LayoutProps{
   content:ContentItem;
   sectionRefs: ReturnType<typeof useRef<{ [Key: string] : HTMLDivElement | null}>>
+}
+
+export interface CardData {
+  type: 'info' | 'feature' | 'person' | 'tip';
+  cards: Array<{
+    title: string;
+    description: string;
+    icon?: string;
+    color?: string;
+  }>;
 }

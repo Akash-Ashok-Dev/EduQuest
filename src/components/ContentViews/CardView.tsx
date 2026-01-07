@@ -9,6 +9,11 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
     }}
     className="mb-20"
   >
+    <div className="mb-4">
+      <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-50 rounded-full">
+        Section {content.id}
+      </span>
+    </div>
     <div className="max-w-5xl">
       <div className="bg-linear-to-r from-purple-600 to-pink-600 text-white p-12 rounded-2xl shadow-2xl mb-8">
         <div className="flex items-center gap-4 mb-6">

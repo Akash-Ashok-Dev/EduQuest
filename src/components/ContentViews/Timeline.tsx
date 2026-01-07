@@ -10,6 +10,11 @@ const TimelineLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
     className="mb-20 "
   >
     <div className="max-w-4xl">
+      <div className="mb-4">
+        <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-50 rounded-full">
+          Section {content.id}
+        </span>
+      </div>
       <div className="mb-8">
         <h2 className="text-4xl font-bold text-gray-900">{content.title}</h2>
         <span className="inline-block px-3 py-1 text-sm font-medium text-orange-600 bg-orange-50 rounded-full mb-4">
@@ -34,7 +39,7 @@ const TimelineLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
         <div className="absolute -left-3.5 top-41 w-6 h-6 bg-orange-400 rounded-full"></div>
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Build people, not just a résumé
+            Build people, not just a resume
           </h3>
           <p className="text-gray-700 leading-relaxed">
             Late-night conversations, hostel chaos, group projects that almost

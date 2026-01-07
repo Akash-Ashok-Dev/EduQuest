@@ -46,10 +46,27 @@ const App: React.FC = () => {
             "\"Everyone Is Joining Something… What Should I Do?\"\n\nThis pressure is very real.\n\nRemember:\n• College is not a race\n• Joining a club just because others are joining won't help you\n• It's okay to observe first, attend intro sessions, ask seniors questions and then take a decision\n\nBest approach: Pick one thing you are curious about, not what looks popular.",
         },
         {
-          id: "1.6",
+          id: "1-6",
           title: "Managing the First Few Weeks",
           content:
-            "**Do This**\n• Focus on understanding subjects\n• Make a simple routine\n• Talk to seniors and classmates\n• Use tools like reminders and to-do lists\n\n**Avoid**\n• Comparing your journey with others\n• Overloading yourself with clubs immediately\n• Panicking about CGPA in the first month\n\nCollege is a marathon, not a sprint 🏃‍♂️",
+            "The first few weeks can feel overwhelming. Here's how to navigate them smoothly.",
+          cardData: {
+            type: "tip",
+            cards: [
+              {
+                title: "✅ Do This",
+                description:
+                  "Focus on understanding subjects. Make a simple routine. Talk to seniors and classmates. Use tools like reminders and to-do lists",
+                color: "green",
+              },
+              {
+                title: "❌ Avoid This",
+                description:
+                  "Comparing your journey with others. Overloading yourself with clubs immediately. Panicking about CGPA in the first month",
+                color: "red",
+              },
+            ],
+          },
         },
         {
           id: "1.7",
@@ -73,56 +90,213 @@ const App: React.FC = () => {
         "Our platform offers a wide range of features including real-time collaboration, advanced analytics, customizable workflows, and seamless integrations. Each feature is designed with user experience in mind.",
       subItems: [
         {
-          id: "2-1",
-          title: "Real-time Collaboration",
+          id: "2.1",
+          title: "Technical Clubs",
           content:
-            "Work together with your team in real-time. See changes as they happen, communicate through integrated chat, and maintain version history for all your work.",
+            "MEC has several active technical clubs that focus on hands-on learning, building projects, and skill development. These clubs are perfect for students who want to go beyond textbooks and create real-world solutions.",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "GDGC MEC",
+                description:
+                  "Google Developer Groups Club. Focus on web development, app development, cloud & ML. Hackathons, coding sessions, and real projects. Extremely strong for CS & self-learners.",
+                icon: "🌐",
+                color: "blue",
+              },
+
+              {
+                title: "TLE Cell",
+                description:
+                  "Time Limit Exceeded. Focus on innovation, skill enhancement, and academic enrichment. Often overlaps with IEDC-style activities.",
+                icon: "🎓",
+                color: "blue",
+              },
+              {
+                title: "NSDC @ MEC",
+                description:
+                  "Skill development initiatives focusing on industry-ready skills and employability certifications. Less visible daily, but useful for credentials and government-recognized certifications.",
+                icon: "💻",
+                color: "purple",
+              },
+            ],
+          },
         },
         {
-          id: "2-2",
-          title: "Advanced Analytics",
+          id: "2.2",
+          title: "Professional Societies",
           content:
-            "Gain insights into your data with powerful analytics tools. Create custom dashboards, generate reports, and track key performance indicators with ease.",
+            "Professional societies provide national and international exposure, research opportunities, and industry connections. These are domain-specific organizations with strong backing from international bodies.",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "IEEE MEC Chapter",
+                description:
+                  "One of the strongest technical chapters at MEC. Focus on Electronics, Computer Science, AI, Robotics, and Research. Workshops, hackathons, paper presentations, and international exposure. Best for ECE, EE, CS students.",
+                icon: "⚙️",
+                color: "blue",
+              },
+              {
+                title: "ASME MEC",
+                description:
+                  "Mechanical-focused technical society. Activities include design challenges, industrial talks, and mechanical projects. Valuable for mechanical engineering students interested in hands-on work.",
+                icon: "🔧",
+                color: "yellow",
+              },
+            ],
+          },
+        },
+        {
+          id: "2.3",
+          title: "Cultural & Non-Tech Clubs",
+          content:
+            "MEC has a vibrant cultural scene with clubs dedicated to arts, music, dance, and public speaking. These clubs are the backbone of college fests and inter-college competitions.",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "Arts Club",
+                description:
+                  "Very active cultural teams including Dance (classical, western, group) and Music (vocals, bands, instruments). Core of arts fest and inter-college competitions. If you have talent, MEC gives you a real stage.",
+                icon: "🎭",
+                color: "pink",
+              },
+              {
+                title: "TEDx MEC",
+                description:
+                  "Official TEDx event hosted by MEC. Features entrepreneurs, researchers, artists, and MEC alumni as speakers. High-profile event with excellent volunteering experience. Looks very strong on CV and provides serious networking opportunities.",
+                icon: "🎤",
+                color: "red",
+              },
+              {
+                title: "Excel Magazine",
+                description:
+                  "Official college magazine of MEC. Covers campus events, student articles, poems, tech pieces, and achievements. Getting published is a strong CV point. Entirely student-run. Perfect for writing, design, or editing enthusiasts.",
+                icon: "📊",
+                color: "blue",
+              },
+            ],
+          },
+        },
+        {
+          id: "2.4",
+          title: "Social & Leadership",
+          content:
+            "These organizations focus on social service, environmental causes, leadership development, and nation-building. Great for building soft skills and giving back to society.",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "NSS MEC Unit",
+                description:
+                  "Government-recognized service organization. Activities include community service, blood donation camps, and disaster relief. Provides official certificates helpful for higher studies and government applications. Builds leadership and social responsibility.",
+                icon: "🇮🇳",
+                color: "green",
+              },
+              {
+                title: "Bhoomitrasena",
+                description:
+                  "Environmental and sustainability group. Activities include clean-up drives, tree plantation, and awareness programs. More social and eco-focused than technical. Perfect for environmentally conscious students.",
+                icon: "🌱",
+                color: "green",
+              },
+              {
+                title: "Yi-Yuva (Young Indians)",
+                description:
+                  "Leadership and entrepreneurship oriented. Focus on nation-building and youth leadership. Good for students interested in management, startups, and public speaking. Part of CII initiative.",
+                icon: "💼",
+                color: "purple",
+              },
+            ],
+          },
+        },
+        {
+          id: "2.5",
+          title: "College Union & Cells",
+          content:
+            "The College Union is the student government of MEC, handling major events and student representation. Under the Union are several cells that form the critical backbone of college operations.\n\n**MEC College Union handles:**\n• Arts fest & cultural programs\n• Major college events & fests\n• Student representation & issues\n• Coordination with college administration\n\nThe Union oversees several important cells that work behind the scenes to make everything run smoothly.",
+          cardData: {
+            type: "info",
+            cards: [
+              {
+                title: "Placement Cell",
+                description:
+                  "Handles company coordination and placement drives. Very serious at MEC. Works throughout the year to bring companies to campus and prepare students for interviews.",
+                icon: "💼",
+                color: "blue",
+              },
+              {
+                title: "Training Cell",
+                description:
+                  "Focuses on aptitude training, soft skills development, and coding preparation. Helps students get ready for placement season and competitive exams.",
+                icon: "📚",
+                color: "purple",
+              },
+              {
+                title: "Alumni Relations Cell",
+                description:
+                  "Organizes alumni talks, mentorship programs, and networking events. Connects current students with successful MEC alumni for guidance and opportunities.",
+                icon: "🤝",
+                color: "green",
+              },
+              {
+                title: "Exam Cell",
+                description:
+                  "Handles exam coordination and communication. Ensures smooth conduct of internal assessments and university exams. Your go-to for exam-related queries.",
+                icon: "📝",
+                color: "yellow",
+              },
+            ],
+          },
+        },
+        {
+          id: "2.6",
+          title: "Other Initiatives",
+          content:
+            "MEC has additional programs and initiatives that provide skill development, innovation support, and learning opportunities. These might be less visible in daily college life but offer valuable resources.",
+          cardData: {
+            type: "info",
+            cards: [
+              {
+                title: "TinkerHub MEC",
+                description:
+                  "Student-led tech learning community focused on learning by building. Coding bootcamps, build nights, hackathons, and peer mentoring. Beginner-friendly and converts theory to real skills.",
+                icon: "🛠️",
+                color: "purple",
+              },
+              {
+                title: "IdeaLab MEC",
+                description:
+                  "KTU & Govt-supported innovation lab on campus. Access to 3D printers, electronics kits, mechanical tools, and prototyping equipment. Perfect for mini projects and hardware prototypes.",
+                icon: "🧪",
+                color: "green",
+              },
+            ],
+          },
+        },
+        {
+          id: "2.7",
+          title: "The MEC Advantage",
+          content:
+            "**TinkerHub × IdeaLab: The Perfect Combination**\n\nThis is very MEC-specific and important. The combination of TinkerHub and IdeaLab creates a unique ecosystem:\n\n**TinkerHub provides:**\n• Skills and mindset\n• Learning community\n• Mentorship and guidance\n• Bootcamps and workshops\n\n**IdeaLab provides:**\n• Physical tools and equipment\n• Dedicated build space\n• Prototyping facilities\n• Hardware resources\n\nMany of MEC's best projects start in TinkerHub (where you learn and ideate) and get built in IdeaLab (where you have access to tools and space).\n\nThis combination is what makes MEC special — you don't just learn theory, you build real things with real tools, supported by a community of peers and mentors.",
         },
       ],
     },
     {
       id: "3",
-      title: "Getting Started",
-      description: "Quick start guide",
-      content:
-        "Begin your journey by setting up your account and configuring your preferences. This section walks you through the initial setup process, from creating your profile to customizing your dashboard.",
+      title: "Resources",
+      description: "An Archieve for MECians",
+      content: "Text,Notes and PYQs",
     },
     {
       id: "4",
       title: "Making the Most of College",
       description: "Say Yes First, Figure It Out Later",
-      content:
-        "College isn’t meant to be “optimized” like a productivity app—it’s meant to be lived. The best students aren’t the ones who did everything perfectly; they’re the ones who tried widely, reflected deeply, and chose consciously.",
-      subItems: [
-        {
-          id: "4-1",
-          title: "Workflow Optimization",
-          content:
-            "Streamline your processes by setting up custom workflows, using keyboard shortcuts, and automating repetitive tasks. Learn how to organize your workspace for maximum efficiency.",
-        },
-        {
-          id: "4-2",
-          title: "Security Guidelines",
-          content:
-            "Protect your data by following security best practices. Enable two-factor authentication, use strong passwords, regularly review access permissions, and keep your software up to date.",
-        },
-      ],
+      content: "Not used",
     },
     {
       id: "5",
-      title: "Advanced Topics",
-      description: "Deep dive into complex concepts",
-      content:
-        "For experienced users, this section delves into advanced features and techniques. Explore API integrations, custom scripting, automation workflows, and performance optimization.",
-    },
-    {
-      id: "6",
       title: "HELP!!",
       description: "Troubleshooting",
       content:

@@ -10,6 +10,11 @@ const CodeLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
     }}
     className="mb-20"
   >
+    <div className="mb-4">
+      <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-50 rounded-full">
+        Section {content.id}
+      </span>
+    </div>
     <div className="max-w-4xl">
       <div className="bg-gray-900 text-green-400 p-8 rounded-xl font-mono shadow-2xl">
         <div className="flex items-center gap-2 mb-6 text-gray-400">
