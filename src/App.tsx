@@ -95,10 +95,10 @@ const App: React.FC = () => {
     },
     {
       id: "4",
-      title: "Best Practices",
-      description: "Tips for optimal use",
+      title: "Making the Most of College",
+      description: "Say Yes First, Figure It Out Later",
       content:
-        "Learn industry best practices and expert tips to maximize your productivity. This section covers workflow optimization, security recommendations, and strategies for team collaboration.",
+        "College isn’t meant to be “optimized” like a productivity app—it’s meant to be lived. The best students aren’t the ones who did everything perfectly; they’re the ones who tried widely, reflected deeply, and chose consciously.",
       subItems: [
         {
           id: "4-1",
