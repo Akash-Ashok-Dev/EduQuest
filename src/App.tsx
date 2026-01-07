@@ -67,8 +67,8 @@ const App: React.FC = () => {
     },
     {
       id: "2",
-      title: "Features",
-      description: "Explore key capabilities",
+      title: "Clubs",
+      description: "Exploring different clubs",
       content:
         "Our platform offers a wide range of features including real-time collaboration, advanced analytics, customizable workflows, and seamless integrations. Each feature is designed with user experience in mind.",
       subItems: [
