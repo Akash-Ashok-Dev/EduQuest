@@ -141,7 +141,7 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
               />
             </svg>
           </div>
-          <h3 className="text-xl font-bold text-gray-900 mb-2">Secure</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-2">Others</h3>
           <p className="text-gray-600">
             A flexible space for exploration beyond defined roles. This includes
             hobbies, personal projects, learning experiments, clubs, interests,
