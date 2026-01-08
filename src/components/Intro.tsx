@@ -13,11 +13,10 @@ const Intro: React.FC = () => {
           Finding your way at MEC just got easier.
         </p>
         <p className="text-lg text-blue-50 max-w-3xl leading-relaxed">
-          This comprehensive guide will walk you through all aspects of our
-          platform, from basic setup to advanced features. Whether you're a
-          beginner or an experienced user, you'll find valuable information
-          organized in an easy-to-navigate format. Scroll down to explore our
-          documentation sections.
+          "No more hunting through endless links and confusing folders. EduQuest
+          brings order to the chaos by centralizing everything an MECian needs.
+          From organized study materials to navigating college life, we provide
+          the accessibility you need to hit the ground running from day one."
         </p>
         <div className="mt-12 flex gap-4">
           <button

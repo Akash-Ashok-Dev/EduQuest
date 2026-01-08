@@ -13,7 +13,7 @@ const App: React.FC = () => {
       title: "MEC Fresher Compass",
       description: "A beginner's guide to life at MEC",
       content:
-        "No more hunting through endless links and confusing folders. EduQuest brings order to the chaos by centralizing everything an MECian needs. From organized study materials to navigating college life, we provide the accessibility you need to hit the ground running from day one.",
+        "Welcome to Model Engineering College If you’re feeling excited, confused, nervous, or all of it together — don’t worry. Every MECian has been there. This guide exists to help you understand college life at MEC, without overwhelming you.",
       subItems: [
         {
           id: "1.1",
