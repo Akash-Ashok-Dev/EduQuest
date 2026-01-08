@@ -35,18 +35,24 @@ const App: React.FC = () => {
         },
         {
           id: "1.4",
+          title: "Grade System",
+          content:
+            "KTU follows a 10-point grading system, not direct marks. Your performance in each subject is converted into a letter grade, which then maps to grade points.\n\n**🧮 SGPA – Semester Grade Point Average**\n This tells how well you did in one semester.\n ☆ Formula: SGPA = Σ (Credit × Grade Point) ÷ Σ Credits\n So, subjects with more credits affect your SGPA more\n\n**📈CGPA – Cumulative Grade Point Average**\nThis is your overall performance till the current semester.\n ☆ Formula: CGPA = Average of all SGPAs (credit-weighted)\n This is the number companies, higher studies, and abroad applications mostly care about 👀✨ **🔄 Internal + External = Final Grade**\nEach subject has:\n •Internal Assessment (IA) → usually 40 marks\n •End Semester Exam (ESE) → usually 60 marks \n Both are combined, then converted into the final grade. \n Fail in either? You fail the subject 😬 (yes, even if total looks okay). **🧠 Important KTU Reality Checks (very important)**\n•Credits > Marks — focus more on high-credit subjects\n •One low-grade in a big subject hurts more than two small ones\n •CGPA ≥ 7.5 → decent\n •CGPA ≥ 8.0 → strong\n •CGPA ≥ 8.5+ → elite tier 🚀 **🌱 Violet’s gentle advice**\nDon’t chase S grades everywhere.\n Chase consistency. A steady 8+ CGPA beats random spikes any day — especially for internships, Masters, and placements 💫\n",
+        },
+        {
+          id: "1.5",
           title: "Clubs at MEC",
           content:
             "MEC has many clubs — technical, cultural, sports, and social.\n\n**What You Should Know**\n• You don't need to join everything. But it's always great to try out new things\n• Clubs will come one after another — that's normal\n• Each club focuses on a different domain\n• A lot of clubs only take in 2nd years and above as members. But you can still participate in their events\n\n**Types of Clubs**\n• Technical clubs – coding, electronics, robotics, design, research\n• Cultural clubs – music, dance, drama, arts\n• Sports & fitness\n• Social & outreach clubs",
         },
         {
-          id: "1.5",
+          id: "1.6",
           title: "Choosing Clubs",
           content:
             "\"Everyone Is Joining Something… What Should I Do?\"\n\nThis pressure is very real.\n\nRemember:\n• College is not a race\n• Joining a club just because others are joining won't help you\n• It's okay to observe first, attend intro sessions, ask seniors questions and then take a decision\n\nBest approach: Pick one thing you are curious about, not what looks popular.",
         },
         {
-          id: "1.6",
+          id: "1.7",
           title: "Managing the First Few Weeks",
           content:
             "The first few weeks can feel overwhelming. Here's how to navigate them smoothly.",
@@ -69,13 +75,13 @@ const App: React.FC = () => {
           },
         },
         {
-          id: "1.7",
+          id: "1.8",
           title: "Common Fresher Questions",
           content:
             "**Q: Is first year very important?**\nYes — it sets your foundation and habits.\n\n**Q: Can I survive without joining clubs?**\nYes. Clubs are opportunities, not obligations.\n\n**Q: What if I miss a club registration?**\nHappens to everyone. There will be more chances.\n\n**Q: Is CGPA everything?**\nNo. Skills, consistency, and experience matter a lot.",
         },
         {
-          id: "1.8",
+          id: "1.9",
           title: "Word of Advice",
           content:
             "All of this can be a lot to take in at first. But don't worry.\n\nYou don't have to figure everything out today.\n\nYou don't have to be perfect.\n\nYou just have to start.\n\nMEC Fresher Compass is here to guide you — step by step, without pressure.\n\nWelcome to MEC 🎓\n\nYour journey starts here.",
