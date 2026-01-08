@@ -61,7 +61,11 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-2">Tech Clubs</h3>
           <p className="text-gray-600">
-            Lightning-fast load times and smooth interactions.
+            A space for building, breaking, and understanding systems. This
+            includes coding, engineering, data, AI, tools, and anything driven
+            by logic, problem-solving, and innovation. Tech is about turning
+            ideas into functioning solutions through structure, experimentation,
+            and continuous learning.
           </p>
         </div>
 
@@ -85,7 +89,11 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
             Non-Tech clubs
           </h3>
           <p className="text-gray-600">
-            Tailor every aspect to fit your needs.
+            Focused on people, communication, and creativity. This covers
+            management, marketing, design thinking, content, operations, and
+            community-driven work. Non-tech roles translate ideas into impact by
+            connecting teams, shaping narratives, and making technology usable
+            and meaningful.
           </p>
         </div>
 
@@ -109,7 +117,11 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
             Professional societies
           </h3>
           <p className="text-gray-600">
-            Work together seamlessly with your team.
+            Everything that builds credibility, responsibility, and real-world
+            readiness. This includes internships, leadership roles, teamwork,
+            ethics, documentation, presentations, and workplace skills.
+            Professional growth is about showing up reliably, working with
+            others, and evolving beyond just technical ability.
           </p>
         </div>
 
@@ -131,7 +143,11 @@ const CardViewLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-2">Secure</h3>
           <p className="text-gray-600">
-            Enterprise-grade security for your data.
+            A flexible space for exploration beyond defined roles. This includes
+            hobbies, personal projects, learning experiments, clubs, interests,
+            and life skills. “Others” exists to encourage curiosity, balance,
+            and growth outside formal paths—because not everything valuable fits
+            into a category.
           </p>
         </div>
       </div>

@@ -93,7 +93,7 @@ const App: React.FC = () => {
       title: "Clubs",
       description: "Exploring different clubs",
       content:
-        "Our platform offers a wide range of features including real-time collaboration, advanced analytics, customizable workflows, and seamless integrations. Each feature is designed with user experience in mind.",
+        "Joining clubs is one of the fastest ways to grow beyond the classroom📈.Clubs are where learning turns into experience, helping you build confidence, leadership, and friendships that last beyond college. They expose you to real responsibilities, teamwork, and challenges that shape both your skills and mindset. By stepping out of your comfort zone, you discover your potential and grow faster than you ever could alone. Join a club not just to add to your resume, but to truly live and shape your college journey. ✨✨",
       subItems: [
         {
           id: "2.1",
