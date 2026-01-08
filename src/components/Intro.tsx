@@ -8,9 +8,9 @@ const Intro: React.FC = () => {
   return (
     <section className="bg-linear-to-br from-blue-600 to bg-purple-700 text-white">
       <div className="max-w-7xl mx-auto px-12 py-24">
-        <h1 className="text-6xl font-bold mb-6"> Greetings</h1>
+        <h1 className="text-6xl font-bold mb-6"> MECians EduQuest</h1>
         <p className="text-2xl mb-8 text-blue-100">
-          Everything you need to know to get started and master our platform
+          Finding your way at MEC just got easier.
         </p>
         <p className="text-lg text-blue-50 max-w-3xl leading-relaxed">
           This comprehensive guide will walk you through all aspects of our

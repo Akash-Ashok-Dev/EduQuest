@@ -13,7 +13,7 @@ const App: React.FC = () => {
       title: "MEC Fresher Compass",
       description: "A beginner's guide to life at MEC",
       content:
-        "Welcome to Model Engineering College If you’re feeling excited, confused, nervous, or all of it together — don’t worry. Every MECian has been there. This guide exists to help you understand college life at MEC, without overwhelming you.",
+        "No more hunting through endless links and confusing folders. EduQuest brings order to the chaos by centralizing everything an MECian needs. From organized study materials to navigating college life, we provide the accessibility you need to hit the ground running from day one.",
       subItems: [
         {
           id: "1.1",
@@ -25,7 +25,7 @@ const App: React.FC = () => {
           id: "1.2",
           title: "The Academic System",
           content:
-            "During induction, you'll hear many new terms. Let's slow it down.\n\n**Grading & Exams**\n\nYour performance is measured using CGPA. Marks come from:\n• Internal assessments (tests, assignments, labs)\n• Attendance\n• End semester exams (KTU exams)\n• Consistency matters more than last-minute study\n\n**Attendance**\n\nAttendance is important and monitored. Missing too many classes can cause problems later. You need a minimum of 75% to be able to write the exams. For most subjects, you need only 85% to get full 5 marks for attendance.\n\nPro tip: Don't ignore attendance thinking \"I'll manage later\"\n\n**Labs & Assignments**\n\nLabs are as important as theory. Assignments help you stay regular — don't treat them lightly.",
+            "During induction, you'll hear many new terms. Let's slow it down.\n\n**Grading & Exams**\n\nYour performance is measured using CGPA. Marks come from:\n• Internal assessments (tests, assignments, labs)\n• Attendance\n• End semester exams (KTU exams)\n• Consistency matters more than last-minute study\n\n**Attendance**\n\nAttendance is important and monitored. Missing too many classes can cause problems later. You need a minimum of 75% to be able to write the exams. For most subjects, you need only 85% to get full 5 marks for attendance.\n\nPro tip: Don't ignore attendance, thinking \"I'll manage later\"\n\n**Labs & Assignments**\n\nLabs are as important as theory. Assignments help you stay regular — don't treat them lightly.",
         },
         {
           id: "1.3",
@@ -46,7 +46,7 @@ const App: React.FC = () => {
             "\"Everyone Is Joining Something… What Should I Do?\"\n\nThis pressure is very real.\n\nRemember:\n• College is not a race\n• Joining a club just because others are joining won't help you\n• It's okay to observe first, attend intro sessions, ask seniors questions and then take a decision\n\nBest approach: Pick one thing you are curious about, not what looks popular.",
         },
         {
-          id: "1-6",
+          id: "1.6",
           title: "Managing the First Few Weeks",
           content:
             "The first few weeks can feel overwhelming. Here's how to navigate them smoothly.",
@@ -108,14 +108,14 @@ const App: React.FC = () => {
               {
                 title: "TLE Cell",
                 description:
-                  "Time Limit Exceeded. Focus on innovation, skill enhancement, and academic enrichment. Often overlaps with IEDC-style activities.",
+                  "Time Limit Exceeded. Focus on DSA, skill enhancement, and academic enrichment which is needed for every basic interview.",
                 icon: "🎓",
                 color: "blue",
               },
               {
                 title: "NSDC @ MEC",
                 description:
-                  "Skill development initiatives focusing on industry-ready skills and employability certifications. Less visible daily, but useful for credentials and government-recognized certifications.",
+                  "AI/ML club which focus on skill development initiatives focusing on industry-ready skills and changing market.",
                 icon: "💻",
                 color: "purple",
               },
@@ -156,7 +156,7 @@ const App: React.FC = () => {
             type: "feature",
             cards: [
               {
-                title: "Arts Club",
+                title: "Bharatham",
                 description:
                   "Very active cultural teams including Dance (classical, western, group) and Music (vocals, bands, instruments). Core of arts fest and inter-college competitions. If you have talent, MEC gives you a real stage.",
                 icon: "🎭",
@@ -170,9 +170,9 @@ const App: React.FC = () => {
                 color: "red",
               },
               {
-                title: "Excel Magazine",
+                title: "Sports club",
                 description:
-                  "Official college magazine of MEC. Covers campus events, student articles, poems, tech pieces, and achievements. Getting published is a strong CV point. Entirely student-run. Perfect for writing, design, or editing enthusiasts.",
+                  "Official college sports club featuring many sports. Entirely student-run. Perfect for sports enthusiasts.",
                 icon: "📊",
                 color: "blue",
               },
