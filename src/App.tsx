@@ -179,7 +179,7 @@ const App: React.FC = () => {
                 title: "Sports club",
                 description:
                   "Official college sports club featuring many sports. Entirely student-run. Perfect for sports enthusiasts.",
-                icon: "📊",
+                icon: "⚽️",
                 color: "blue",
               },
             ],
