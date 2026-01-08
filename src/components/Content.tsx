@@ -229,8 +229,17 @@ const Content: React.FC<ContentProps> = ({ items, sectionRefs, onScroll }) => {
                             {subItem.cardData!.cards.map((card, cardIndex) => {
                               const colors = colorMap[card.color || "blue"];
                               return (
-                                <div
+                                <button
                                   key={cardIndex}
+                                  onClick={() => {
+                                    if (card.link) {
+                                      window.open(
+                                        card.link,
+                                        "_blank",
+                                        "noopener,noreferrer"
+                                      );
+                                    }
+                                  }}
                                   className={`${colors.bg} border-2 ${colors.border} rounded-xl p-6 hover:shadow-lg transition-all duration-200 hover:scale-105`}
                                 >
                                   {card.icon && (
@@ -246,7 +255,26 @@ const Content: React.FC<ContentProps> = ({ items, sectionRefs, onScroll }) => {
                                   <p className="text-gray-600 text-sm leading-relaxed">
                                     {card.description}
                                   </p>
-                                </div>
+
+                                  {card.link && (
+                                    <div className="mt-3 flex items-center gap-1 text-xs text-gray-500">
+                                      <span>Click to learn more</span>
+                                      <svg
+                                        className="w-3 h-3"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          strokeWidth={2}
+                                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                        />
+                                      </svg>
+                                    </div>
+                                  )}
+                                </button>
                               );
                             })}
                           </div>

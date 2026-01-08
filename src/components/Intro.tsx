@@ -1,6 +1,10 @@
 import React from "react";
 
 const Intro: React.FC = () => {
+  const LearnMoreOnClick = () => {
+    window.open("https://www.mec.ac.in", "_blank", "noopener,noreferrer");
+  };
+
   return (
     <section className="bg-linear-to-br from-blue-600 to bg-purple-700 text-white">
       <div className="max-w-7xl mx-auto px-12 py-24">
@@ -16,10 +20,10 @@ const Intro: React.FC = () => {
           documentation sections.
         </p>
         <div className="mt-12 flex gap-4">
-          <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-            Get Started
-          </button>
-          <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">
+          <button
+            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"
+            onClick={() => LearnMoreOnClick()}
+          >
             Learn More
           </button>
         </div>

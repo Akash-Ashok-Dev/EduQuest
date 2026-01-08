@@ -49,7 +49,7 @@ const TimelineLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
           </p>
         </div>
 
-        <div className="absolute -left-3.5 bottom-53 w-6 h-6 bg-orange-400 rounded-full"></div>
+        <div className="absolute -left-3.5 bottom-63 w-6 h-6 bg-orange-400 rounded-full"></div>
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
             Do uncomfortable things early
@@ -61,7 +61,7 @@ const TimelineLayout: React.FC<LayoutProps> = ({ content, sectionRefs }) => (
           </p>
         </div>
 
-        <div className="absolute -left-3.5 bottom-14 w-6 h-6 bg-orange-400 rounded-full"></div>
+        <div className="absolute -left-3.5 bottom-24 w-6 h-6 bg-orange-400 rounded-full"></div>
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
             Reflect regularly

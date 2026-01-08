@@ -21,11 +21,12 @@ export interface LayoutProps{
 }
 
 export interface CardData {
-  type: 'info' | 'feature' | 'person' | 'tip';
+  type: 'info' | 'feature' | 'person' | 'tip' | 'resource';
   cards: Array<{
     title: string;
     description: string;
     icon?: string;
     color?: string;
+    link?: string;
   }>;
 }

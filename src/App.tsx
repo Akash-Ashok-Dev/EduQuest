@@ -288,6 +288,92 @@ const App: React.FC = () => {
       title: "Resources",
       description: "An Archieve for MECians",
       content: "Text,Notes and PYQs",
+      subItems: [
+        {
+          id: "3.1",
+          title: "Textbooks",
+          content: "Various Textbooks links",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "Sem 1",
+                description: "Contains ATP,BEE,Chemistry,Physics,Maths",
+                color: "blue",
+                link: "https://drive.google.com/drive/folders/1vKW5vhEryHuWwAqL51GMsQjIiLo1b2H6?usp=sharing",
+              },
+              {
+                title: "Sem 2",
+                description: "Still in progress",
+                color: "purple",
+              },
+            ],
+          },
+        },
+        {
+          id: "3.2",
+          title: "Notes",
+          content: "Various Notes links",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "Sem 1",
+                description: "Will be updated soon",
+                color: "blue",
+              },
+              {
+                title: "Sem 2",
+                description: "Still in progress",
+                color: "purple",
+              },
+            ],
+          },
+        },
+        {
+          id: "3.3",
+          title: "PYQ",
+          content: "Various PYQ links",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "Sem 1",
+                description: "Some Paper's I got",
+                color: "blue",
+                link: "https://drive.google.com/drive/folders/1l3h7-IXFfEavJW3Ej3ODV-TjfX5RBetB?usp=share_link",
+              },
+              {
+                title: "Sem 2",
+                description: "Still in Progress",
+                color: "purple",
+              },
+            ],
+          },
+        },
+        {
+          id: "3.4",
+          title: "Others",
+          content: "Various Courses links",
+          cardData: {
+            type: "feature",
+            cards: [
+              {
+                title: "MOOC 101",
+                description:
+                  "Contains notes for 25 hours of online MOOC course 101",
+                color: "blue",
+                link: "https://drive.google.com/drive/folders/1GTi1U210BG2YWCfCzULdZTADRQp5B6O_?usp=share_link",
+              },
+              {
+                title: "Any other courses coming",
+                description: "Currently unknown",
+                color: "purple",
+              },
+            ],
+          },
+        },
+      ],
     },
     {
       id: "4",

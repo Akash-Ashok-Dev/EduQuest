@@ -1,4 +1,11 @@
-const Ending = () => {
+const Ending: React.FC = () => {
+  const ConnectOnClick = () => {
+    window.open(
+      "https://www.linkedin.com/in/akash-ashok-dev/",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
   return (
     <section className="bg-linear-to-br from-blue-600 to bg-purple-700 text-white">
       <div className="max-w mx-auto px-12 py-24 text-center">
@@ -6,7 +13,10 @@ const Ending = () => {
         <p className="text-lg text-blue-50 max-w leading-relaxed">
           Let's Collaborate and Make it Real
         </p>
-        <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition">
+        <button
+          className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition"
+          onClick={() => ConnectOnClick()}
+        >
           Let's Connect!
         </button>
       </div>
