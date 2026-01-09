@@ -345,7 +345,7 @@ const App: React.FC = () => {
             cards: [
               {
                 title: "Sem 1",
-                description: "Some Paper's I got",
+                description: "Some Previous Year Papers",
                 color: "blue",
                 link: "https://drive.google.com/drive/folders/1l3h7-IXFfEavJW3Ej3ODV-TjfX5RBetB?usp=share_link",
               },
